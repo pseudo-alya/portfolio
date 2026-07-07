@@ -93,7 +93,7 @@ export default function ContactSection() {
               value={form.name}
               onChange={handleChange}
               className="w-full rounded-md border border-[#1b2c68a0] bg-[#10122b] px-3 py-2 text-sm text-white outline-none focus:border-violet-500"
-              placeholder="Jane Doe"
+              placeholder="Firstname Lastname"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -104,7 +104,7 @@ export default function ContactSection() {
               value={form.email}
               onChange={handleChange}
               className="w-full rounded-md border border-[#1b2c68a0] bg-[#10122b] px-3 py-2 text-sm text-white outline-none focus:border-violet-500"
-              placeholder="jane@example.com"
+              placeholder="name@example.com"
             />
           </div>
           <div className="flex flex-col gap-1">
