@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
-            Who I am?
+            Who am I?
           </p>
           <p className="text-gray-200 text-sm lg:text-base leading-7">
             {personalData.description}
