@@ -6,14 +6,14 @@ import { personalData } from "@/utils/data/personalData";
 
 export default function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+    <section className="relative flex flex-col items-center justify-between py-4 lg:py-8">
       {/* Background glow */}
       <div className="pointer-events-none absolute -top-20 left-1/4 h-72 w-72 rounded-full bg-violet-600/20 blur-[120px]" />
       <div className="pointer-events-none absolute top-40 right-1/4 h-72 w-72 rounded-full bg-pink-500/20 blur-[120px]" />
 
       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         {/* Left: intro */}
-        <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-10 md:pb-16 lg:pt-10">
+        <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-4 lg:pt-6">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             I&apos;m{" "}
