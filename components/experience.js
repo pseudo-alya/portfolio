@@ -20,29 +20,25 @@ export default function Experience() {
     <section id="experience" className="relative my-12 lg:my-24">
       <SectionTitle>Experiences</SectionTitle>
 
-      <div className="py-8">
-        <div className="flex flex-col gap-6">
-          {experiences.map((exp) => (
-            <div key={exp.id} className="glass-card p-6">
-              <div className="flex items-start gap-4">
-                <BsPersonWorkspace className="mt-1 text-2xl text-[#16f2b3]" />
-                <div>
-                  <p className="text-lg font-semibold text-white">
-                    {exp.title}
-                  </p>
-                  <p className="text-sm text-[#16f2b3]">{exp.company}</p>
-                  <p className="text-xs text-gray-400">
-                    {exp.duration}
-                    {exp.location ? ` · ${exp.location}` : ""}
-                  </p>
-                  <p className="mt-2 text-sm text-gray-300 leading-6">
-                    {exp.description}
-                  </p>
-                </div>
+      <div className="section-body card-stack">
+        {experiences.map((exp) => (
+          <div key={exp.id} className="glass-card p-6">
+            <div className="flex items-start gap-4">
+              <BsPersonWorkspace className="mt-1 text-2xl text-[#16f2b3]" />
+              <div>
+                <p className="text-lg font-semibold text-white">{exp.title}</p>
+                <p className="text-sm text-[#16f2b3]">{exp.company}</p>
+                <p className="text-xs text-gray-400">
+                  {exp.duration}
+                  {exp.location ? ` · ${exp.location}` : ""}
+                </p>
+                <p className="mt-2 text-sm text-gray-300 leading-6">
+                  {exp.description}
+                </p>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );

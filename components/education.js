@@ -20,7 +20,7 @@ export default function Education() {
     <section id="education" className="relative my-12 lg:my-24">
       <SectionTitle>Education</SectionTitle>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-4">
+      <div className="section-body card-grid">
         {educationsData.map((edu) => (
           <div key={edu.id} className="glass-card p-6 flex gap-4">
             <BsFillMortarboardFill className="mt-1 text-3xl text-[#16f2b3] shrink-0" />

@@ -43,7 +43,7 @@ export default function ContactSection() {
     <section id="contact" className="relative my-12 lg:my-24">
       <SectionTitle>Contact</SectionTitle>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-4">
+      <div className="section-body card-grid">
         {/* Contact info */}
         <div className="glass-card p-8 flex flex-col gap-6">
           <p className="text-xl font-semibold text-[#16f2b3]">

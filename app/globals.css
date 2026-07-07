@@ -44,6 +44,20 @@ body {
   .glass-card:hover {
     @apply border-violet-500/60 shadow-lg shadow-violet-500/10;
   }
+
+  /* Shared section spacing — keeps every section's rhythm identical.
+     .section-body sets the header-to-first-card gap.
+     .card-stack / .card-grid set the uniform card-to-card gap; new cards
+     inherit it automatically since it lives on the parent container. */
+  .section-body {
+    @apply pt-4;
+  }
+  .card-stack {
+    @apply flex flex-col gap-6;
+  }
+  .card-grid {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-6;
+  }
 }
 
 /* Animated section heading underline */

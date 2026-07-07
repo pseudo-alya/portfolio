@@ -22,7 +22,7 @@ export default function Projects() {
     <section id="projects" className="relative my-12 lg:my-24">
       <SectionTitle>Projects</SectionTitle>
 
-      <div className="flex flex-col gap-8 pt-4">
+      <div className="section-body card-stack">
         {projectsData.map((project) => (
           <div
             key={project.id}
