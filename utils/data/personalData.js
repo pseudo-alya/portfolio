@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Alya Al Diqqi",
   profile: "/alya800800.jpg",
-  designation: "Computer Science Senior · Aspiring Software Engineer",
+  designation: "Computer Science Graduate · Software Engineer",
   description:
-    "I'm a Computer Science senior at the American University of Sharjah with strong programming fundamentals in Java, Python, C++, and SQL. I enjoy building backend systems, applying machine learning to real-world problems, and designing well-structured databases. I'm seeking SWE/AI internships or entry-level roles where I can keep learning and shipping useful software.",
+    "Computer Science graduate from the American University of Sharjah, currently interning with the IT department at the Sharjah Private Education Authority, working in the Applications section. I build backend systems, apply machine learning to real problems, and design databases that hold up.",
   email: "alya.a.aldiqqi@gmail.com",
   phone: "+971 52 933 7002",
   address: "Sharjah, United Arab Emirates",

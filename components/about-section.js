@@ -8,10 +8,18 @@ export default function AboutSection() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
-            Who I am?
+            About me
           </p>
           <p className="text-gray-200 text-sm lg:text-base leading-7">
-            {personalData.description}
+            I recently completed my B.Sc. in Computer Science at the American
+            University of Sharjah, and I&apos;m now interning in the IT
+            department&apos;s Applications section at the Sharjah Private
+            Education Authority. My senior design project centered on an
+            AI-based toxic gas leak detection and evacuation system, combining
+            sensor data and computer vision for real-time risk assessment.
+            I&apos;m especially drawn to backend engineering, machine learning,
+            and cloud development, and I enjoy turning messy real-world problems
+            into reliable systems.
           </p>
 
           <div className="mt-8">

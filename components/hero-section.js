@@ -68,44 +68,50 @@ export default function HeroSection() {
           <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
-                <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
-                <span className="mr-2 text-pink-500">=</span>
+                <span className="text-pink-500">const</span>
+                {" "}
+                <span className="text-white">alya</span>
+                {" "}
+                <span className="text-pink-500">=</span>
+                {" "}
                 <span className="text-gray-400">{"{"}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'Alya Al Diqqi',`}</span>
+              <div className="ml-4 lg:ml-8">
+                <span className="text-white">degree:</span>
+                {" "}
+                <span className="text-orange-400">{`'B.Sc. Computer Science · American University of Sharjah',`}</span>
               </div>
-              <div className="ml-4 lg:ml-8 mr-2">
-                <span className="text-white">skills:</span>
-                <span className="text-gray-400">{`['Java', 'Python', 'C++', 'SQL', `}</span>
-                <span className="text-gray-400">{`'ML', 'Databases'],`}</span>
+              <div className="ml-4 lg:ml-8">
+                <span className="text-white">based:</span>
+                {" "}
+                <span className="text-orange-400">{`'Sharjah, UAE',`}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">university:</span>
-                <span className="text-orange-400">{`'AUS',`}</span>
+              <div className="ml-4 lg:ml-8">
+                <span className="text-white">stack:</span>
+                {" "}
+                <span className="text-orange-400">{`['Java', 'Python', 'SQL', 'Node.js'],`}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">graduating:</span>
-                <span className="text-orange-400">{`'Spring 2026',`}</span>
+              <div className="ml-4 lg:ml-8">
+                <span className="text-white">focus:</span>
+                {" "}
+                <span className="text-orange-400">{`['Backend', 'ML', 'Cloud'],`}</span>
               </div>
-              <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">hireable:</span>
-                <span className="text-orange-400">function</span>
-                <span className="mr-2 text-white">{`() {`}</span>
-              </div>
-              <div>
-                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
-                <span className="text-cyan-400">hardWorking</span>
-                <span className="mr-2 text-amber-300">&amp;&amp;</span>
-                <span className="text-cyan-400">fastLearner;</span>
-              </div>
-              <div>
-                <span className="ml-4 lg:ml-8 text-white">{`}`}</span>
+              <div className="ml-4 lg:ml-8">
+                <span className="text-white">current:</span>
+                {" "}
+                <span className="text-orange-400">{`'IT Intern @ SPEA · Applications',`}</span>
               </div>
               <div>
                 <span className="text-gray-400">{`};`}</span>
+              </div>
+              <div>&nbsp;</div>
+              <div>
+                <span className="text-pink-500">export</span>
+                {" "}
+                <span className="text-pink-500">default</span>
+                {" "}
+                <span className="text-white">alya</span>
+                <span className="text-gray-400">;</span>
               </div>
             </code>
           </div>

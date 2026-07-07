@@ -8,7 +8,4 @@ export const softSkillsData = [
   "Analytical Reasoning",
   "Communication",
   "Teamwork",
-  "Reliability",
-  "Leadership",
-  "Resilience",
 ];

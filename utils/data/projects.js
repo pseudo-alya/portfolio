@@ -12,6 +12,17 @@ export const projectsData = [
   },
   {
     id: 2,
+    name: "Enterprise Admin Portal",
+    subtitle: "Full-Stack Web Application · Jun 2026",
+    description:
+      "Built a multi-page admin dashboard for an education-regulatory context with authentication, role-based access control, and a MySQL data layer. Designed the schema, REST endpoints, and server-rendered views.",
+    tools: ["Node.js", "Express", "MySQL", "RBAC", "REST APIs"],
+    role: "Full-Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
     name: "Blood Bank Management System",
     subtitle: "Object-Oriented Software Engineering Project · Sep 2025",
     description:
@@ -22,7 +33,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 3,
+    id: 4,
     name: "Smart Inventory & Restock Automation Database",
     subtitle: "Database Systems Project · Jul 2025",
     description:

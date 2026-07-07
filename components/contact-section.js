@@ -50,8 +50,8 @@ export default function ContactSection() {
             Let&apos;s connect
           </p>
           <p className="text-sm text-gray-300 leading-7">
-            I&apos;m open to internship and entry-level opportunities. Feel free
-            to reach out through the form or any of the channels below.
+            Open to entry-level software engineering and cloud opportunities.
+            Reach out through the form or any channel below.
           </p>
 
           <ul className="flex flex-col gap-4 text-sm text-gray-200">
@@ -93,7 +93,7 @@ export default function ContactSection() {
               value={form.name}
               onChange={handleChange}
               className="w-full rounded-md border border-[#1b2c68a0] bg-[#10122b] px-3 py-2 text-sm text-white outline-none focus:border-violet-500"
-              placeholder="Jane Doe"
+              placeholder="Firstname Lastname"
             />
           </div>
           <div className="flex flex-col gap-1">
@@ -104,7 +104,7 @@ export default function ContactSection() {
               value={form.email}
               onChange={handleChange}
               className="w-full rounded-md border border-[#1b2c68a0] bg-[#10122b] px-3 py-2 text-sm text-white outline-none focus:border-violet-500"
-              placeholder="jane@example.com"
+              placeholder="name@example.com"
             />
           </div>
           <div className="flex flex-col gap-1">
