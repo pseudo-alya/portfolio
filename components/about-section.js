@@ -4,7 +4,7 @@ import { languagesData, softSkillsData } from "@/utils/data/extras";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="my-12 lg:my-16 relative">
+    <section id="about" className="relative page-section">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <div>
           <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">

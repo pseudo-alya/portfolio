@@ -2,7 +2,7 @@ import { skillsData, skillsImage } from "@/utils/data/skills";
 
 function SectionTitle({ children }) {
   return (
-    <div className="flex justify-center my-5 lg:py-8">
+    <div className="section-heading">
       <div className="flex items-center">
         <span className="w-24 h-[2px] bg-[#1a1443]" />
         <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
@@ -18,7 +18,7 @@ export default function Skills() {
   const marquee = [...skillsImage, ...skillsImage];
 
   return (
-    <section id="skills" className="relative my-12 lg:my-24">
+    <section id="skills" className="relative page-section">
       <SectionTitle>Skills</SectionTitle>
 
       {/* Marquee */}
