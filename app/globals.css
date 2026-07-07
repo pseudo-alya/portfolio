@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0d1224;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: #d1d5db;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1224;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ec4899, #8b5cf6);
+  border-radius: 8px;
+}
+
+@layer components {
+  .section-container {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent;
+  }
+
+  /* Glass card with gradient hover border */
+  .glass-card {
+    @apply rounded-2xl border border-[#1b2c68a0] bg-gradient-to-r from-[#0d1224] to-[#0a0d37] transition-all duration-300;
+  }
+  .glass-card:hover {
+    @apply border-violet-500/60 shadow-lg shadow-violet-500/10;
+  }
+}
+
+/* Animated section heading underline */
+.heading-line {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8b5cf6, transparent);
+}
+
+/* Marquee for skills */
+.marquee {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+.marquee:hover {
+  animation-play-state: paused;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
