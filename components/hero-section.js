@@ -94,7 +94,7 @@ export default function HeroSection() {
               <div className="ml-4 lg:ml-8">
                 <span className="text-white">focus:</span>
                 {" "}
-                <span className="text-orange-400">{`['Backend', 'ML', 'Cloud'],`}</span>
+                <span className="text-orange-400">{`['Full-Stack', 'ML', 'Cloud'],`}</span>
               </div>
               <div className="ml-4 lg:ml-8">
                 <span className="text-white">current:</span>
